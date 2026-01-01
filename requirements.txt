@@ -1,0 +1,8 @@
+flask
+flask-cors
+transformers
+torch
+pypdf
+scikit-learn
+numpy
+python-dotenv

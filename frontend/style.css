@@ -1,0 +1,49 @@
+body {
+  background: url("https://i.pinimg.com/736x/35/ee/e9/35eee9dc339ffbd681cf3fcc75743b41.jpg");
+  font-family: Arial;
+}
+
+.chatbox {
+  width: 420px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 0 20px rgba(255,0,80,0.2);
+}
+
+#chat {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.msg {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.user { background: #ffe6ec; text-align: right; }
+.bot { background: #f4f4f4; }
+
+.typing {
+  font-size: 12px;
+  color: #999;
+  display: none;
+}
+
+.input-box {
+  display: flex;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  padding: 10px;
+}
